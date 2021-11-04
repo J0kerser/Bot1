@@ -236,7 +236,7 @@ denz.copyNForward(m.key.remoteJid, m.message)
 denz.sendMessage(m.key.remoteJid, `▷\`\`\`𝙰𝙽𝚃𝙸 𝙳𝙴𝙻𝙴𝚃𝙴\`\`\`
 ➬ \`\`\`𝙽𝙰𝙼𝙴 : @${m.participant.split("@")[0]}\`\`\`
 ➬ \`\`\`𝚃𝚈𝙿𝙴 : ${c3type}\`\`\`
-➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 - ꪶ𝑷𝑨𝑼𝑳 ⇥𝑾𝑨𝑳𝑲𝑬𝑹ꫂ⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
+➬ \`\`\`𝙱𝙾𝚃 : 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 - 𝙱𝙾𝚃 𝙱𝚈 - Ajmal and Achu⁩\`\`\``, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
 }
 })
 }
