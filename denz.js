@@ -1858,7 +1858,7 @@ case 'debug2':
     ]
   },
   "hydratedTemplate": {
-    "hydratedContentText": `Hi ${pushname} 👋,\n\nꪶ𝑷𝑨𝑼𝑳 ⇥𝑾𝑨𝑳𝑲𝑬𝑹ꫂ`,
+    "hydratedContentText": `Hi ${pushname} 👋,\n\nAjMaL AnD AcHu`,
     "hydratedFooterText": `${NamaBot}`,
     "hydratedButtons": [
       {
