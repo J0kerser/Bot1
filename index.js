@@ -151,7 +151,7 @@ mhan = await denz.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: 
 const buttonMessages = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${keluar}`,
-footerText: `ī.ᴀᴍ/ꪶ͢ᴘᴀᴜʟᴡᴀʟᴋᴇʀꫂ⁩`,
+footerText: `AjMaL AnD AcHu`,
 buttons: gbutsan,
 headerType: 4
 }
