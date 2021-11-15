@@ -698,7 +698,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 	        denz.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `ꪶ͢ᴘᴀᴜʟᴡᴀʟᴋᴇʀꫂ⁩`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/917356378949?text=Hi bro`}}})
+			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `ī.ᴀᴍ/ꪶ͢ᴀᴊᴍᴀʟꫂ⁩`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/918590508376?text=Hi bro`}}})
 		}
 		const reply2 = (teks) => {
 			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true}})
