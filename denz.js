@@ -1299,7 +1299,7 @@ groups = denz.chats.array.filter(v => v.jid.endsWith('g.us'))
            
               uptime = process.uptime();
               timestampe = speed();
-              totalChat = await xeon.chats.all()
+              totalChat = await denz.chats.all()
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
@@ -2395,15 +2395,15 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 	        if (!isGroup) return reply(mess.only.group)
 			if (!isGroupAdmins) return reply(mess.only.admin)
 			if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-					if (args.length < 1) return reply(`untuk mengaktifkan ketik : ${prefix}antilink 1`)
+					if (args.length < 1) return reply(`To activate type : ${prefix}antilink 1`)
 					if (Number(args[0]) === 1) {
 						if (isAntiLink) return reply('Active')
 						antilink.push(from)
 						fs.writeFileSync('./database/antilink.json', JSON.stringify(antilink))
 						reply('Successfully activate the antilink feature')
-						denz.sendMessage(from, `ALLERT!!! Group ini sudah di pasang anti link\nJika Kamu Melanggar Maka Akan Saya Tendang`, text)
+						denz.sendMessage(from, `ALERT!!! Antilink feature has been activated in this group\nIf you violate then I will kick`, text)
 					} else if (Number(args[0]) === 0) {
-						if (!isAntiLink) return reply('you are dead')
+						if (!isAntiLink) return reply('Antilink is currently off')
 						var ini = antilink.indexOf(from)
 						antilink.splice(ini, 1)
 						fs.writeFileSync('./database/antilink.json', JSON.stringify(antilink))
