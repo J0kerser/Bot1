@@ -1618,9 +1618,33 @@ reply(`Successfully turned off anticall`)
 } else {
 reply(`Select on or off`)
 }
-break         
+break
+case 'rules':
+menu = `
+︎
+-----[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]-----
+
+1. 𝙳𝙾𝙽𝚃 𝙲𝙰𝙻?? 𝙱𝙾𝚃  , 𝙲𝙰𝙻𝙻=A𝚄𝚃𝙾𝙱𝙻𝙾𝙲𝙺
+
+2. 𝙳𝙾𝙽𝚃 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃
+
+3. 𝙳𝙾𝙽𝚃 𝙼𝙸𝚂𝚄𝚂𝙴 𝚃𝙷𝙴 𝙱𝙾𝚃
+
+4. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁
+`
+sendButMessage(from, menu, `Zeus`, [
+          {
+            buttonId: `menu`,
+            buttonText: {
+              displayText: `𝘽𝙖𝙘𝙠 𝙈𝙚𝙣𝙪 ︎`,
+            },
+            type: 1,
+          },]);
+        
+
+break
 case 'setthumb':
-			if (!isQuotedImage) return reply('Reply image!')
+			if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
 			if (!arg) return reply
 				boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 				delb = await denz.downloadMediaMessage(boij)
