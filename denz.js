@@ -290,7 +290,7 @@ try {
 		}
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 777888, "message": teks, "footerText": "*_© ī.ᴀᴍ/ꪶ͢ᴘᴀᴜʟᴡᴀʟᴋᴇʀꫂ⁩_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 777888, "message": teks, "footerText": "*_© ī.ᴀᴍ/ꪶ͢ᴢᴇᴜsꫂ⁩_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              denz.relayWAMessage(res)
         }
         const grupinv = (teks) => {
@@ -621,7 +621,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ͢ᴘᴀᴜʟᴡᴀʟᴋᴇʀꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ͢ᴢᴇᴜsꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -634,7 +634,7 @@ denz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ͢ᴘᴀᴜʟᴡᴀʟᴋᴇʀꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Sorry it seems at this time ${NamaOwner} currently Offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minutes, ${heheh.seconds} second\n\nPlease contact again after Online`, "*_© ꪶ͢ᴢᴇᴜsꫂ⁩_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -1105,8 +1105,8 @@ case 'menu':
 case 'p':
 let pi=denz["prepareMessageFromContent"](from,{
 "listMessage":{
-"title":"ʜɪ ʙʀᴏ ᴛʜɪs ɪs ᴍᴇɴᴜ","description":`${""}
-     ʜɪ ʙʀᴏ  ${pushname}     
+"title":"ʜɪ ᴛʜɪs ɪs ᴍᴇɴᴜ","description":`${""}
+     ʜɪ  ${pushname}     
 ╔༆ᴄʀᴇᴀᴛᴏʀ⟼ī.ᴀᴍ/ꪶ͢ᴀᴊᴍᴀʟꫂ⁩
 ║༄ᴠᴇʀsɪᴏɴ⟼3.0
 ║༄ʙᴏᴛɴᴀᴍᴇ⟼ꪶ͢ᴢᴇᴜsꫂ⁩
@@ -1293,8 +1293,8 @@ anu = await getBuffer(kon)
 denz.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 break
 case 'alive':
-groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
-              privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+groups = denz.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = denz.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
            
               uptime = process.uptime();
@@ -1308,7 +1308,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
-       stst = await xeon.getStatus(`${sender.split('@')[0]}@c.us`)
+       stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `
@@ -1677,7 +1677,7 @@ break
 const buttons = [{buttonId: `menu`, buttonText: {displayText: 'ᴍᴇɴᴜ️'}, type: 1},{buttonId: `credit`, buttonText: {displayText: 'ᴄʀᴇᴀᴛᴏʀs'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*_©ꪶ͢ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜʏꫂ⁩_*',
+    footerText: '*_©ꪶ͢ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜuꫂ⁩_*',
     buttons: buttons,
     headerType: 1
 }
@@ -1699,7 +1699,7 @@ await denz.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted:
  ꪶ͢ᴀᴄʜᴜꫂ💝
  
  `
-     credit = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 8888888, "message": `${yez}`, "footerText": "©ī.ᴀᴍ/ꪶ͢ᴘᴀᴜʟᴡᴀʟᴋᴇʀꫂ⁩", "thumbnail": fs.readFileSync('./denz.jpg'), "surface": 'CATALOG'}}, {quoted: mek})
+     credit = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 8888888, "message": `${yez}`, "footerText": "©ī.ᴀᴍ/ꪶ͢ᴢᴇᴜsꫂ⁩", "thumbnail": fs.readFileSync('./denz.jpg'), "surface": 'CATALOG'}}, {quoted: mek})
             denz.relayWAMessage(credit)
         break
 case 'inibuatwelcome':
@@ -1759,7 +1759,7 @@ case 'debug2':
     ]
   },
   "hydratedTemplate": {
-    "hydratedContentText": `Hi ${pushname} 🥂,\n\nꪶ͢ᴘᴀᴜʟᴡᴀʟᴋᴇʀꫂ⁩`,
+    "hydratedContentText": `Hi ${pushname} 🥂,\n\nꪶ͢ᴢᴇᴜsꫂ⁩`,
     "hydratedFooterText": `${NamaBot}`,
     "hydratedButtons": [
       {
@@ -2740,19 +2740,31 @@ if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
             fs.unlinkSync(owgi)
             break
             case 'tomp3':
+
+        case 'mp3':
+
 					denz.updatePresence(from, Presence.composing)
-					if (!isQuotedVideo) return reply('Reply Video')
-					reply(mess.wait)
+
 					encmediad = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
+
 					mediad = await denz.downloadAndSaveMediaMessage(encmediad)
+
 					ran = getRandom('.mp4')
+
 					exec(`ffmpeg -i ${mediad} ${ran}`, (err) => {
+
 						fs.unlinkSync(mediad)
+
 						if (err) return reply(mess.error.api)
+
 						mhee = fs.readFileSync(ran)
-						denz.sendMessage(from, mhee, audio, { mimetype: 'audio/mp4', duration: 57653233564, quoted: mek })
+
+						denz.sendMessage(from, mhee, audio, { mimetype: 'audio/mp4', duration: 4, quoted: mek })
+
 						fs.unlinkSync(ran)
+
 					})
+
 					break
 				case 'suit':
   if (args.length < 1) return reply('Pilih gunting/batu/kertas')
@@ -3797,7 +3809,7 @@ denz.sendMessage(from, `*ʜɪ ʙʀᴏ ${pushname}*
 ┏━━𒆜 *ɪɴғᴏ*
 ┃𒈒 *ɴᴀᴍᴇ ᴜsᴇʀ* : ${pushname}
 ┃𒈒 *ɴᴀᴍᴇ ʙᴏᴛ* : ꪶ͢𝒁𝑬𝑼𝑺ꫂ⁩
-┃𒈒 *ɴᴀᴍᴇ ᴏᴡɴᴇʀ* : ꪶ͢ᴘᴀᴜʟᴡᴀʟᴋᴇʀꫂ⁩
+┃𒈒 *ɴᴀᴍᴇ ᴏᴡɴᴇʀ* : ꪶ͢ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜꫂ⁩
 ┃𒈒 *ᴄʀᴇᴀᴛᴏʀ* : wa.me/919744196187
 ┃𒈒 *sᴘᴇᴇᴅ* : 00065
 ┗━━𒆜
