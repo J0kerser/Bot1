@@ -1604,6 +1604,21 @@ reply('sᴜᴄᴄᴜss')
 reply(`Use : ${prefix}setmenu button\n\nTersedia: 1/2`)
 }
 break
+case 'anticall':
+if (!isOwner && !itsMe) return
+if (args.length < 1) return reply('Select on or off')
+if (args[0] === "on") {
+if(antical)return reply('It has been activated before!')
+antical = true
+reply(`Succesfully activated anticall`)
+} else if (args[0] === "off") {
+if(!antical)return reply('It has been deactivated before!')
+antical = false
+reply(`Successfully turned off anticall`)
+} else {
+reply(`Select on or off`)
+}
+break
 case 'setthumb':
 			if (!isQuotedImage) return reply('Reply image!')
 			if (!arg) return reply
