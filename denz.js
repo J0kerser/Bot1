@@ -1048,10 +1048,17 @@ sendButLocation(from, `${menu}`, "ꪶ͢ᴢᴇᴜsꫂ⁩", {jpegThumbnail:gambar,
 }
            	break
 case 'help':
-case 'p':
-let pi=denz["prepareMessageFromContent"](from,{
-"listMessage":{
-"title":"ʜɪ ᴛʜɪs ɪs ᴍᴇɴᴜ",━━━━━━━━━━━━━━━━
+case 'zeus':
+denz.sendMessage(from, 'ᴡᴀɪᴛ ʙʀᴏ🙂', text, {quoted: ftok})
+stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
+data = fs.readFileSync('./lib/logo.js');
+jsonData = JSON.parse(data);
+randIndex = Math.floor(Math.random() * jsonData.length);
+randKey = jsonData[randIndex];
+gambar = await getBuffer(randKey.result)
+menu =`━━━━━━━━━━━━━━━━
 
 
                  ${tampilHari}
@@ -1090,10 +1097,10 @@ let pi=denz["prepareMessageFromContent"](from,{
 ║༊ ${prefix}ᴏᴛʜᴇʀᴍᴇɴᴜ
 ╚✘ʙʀᴏ ᴅᴏɴᴛ ғᴏʟʟᴏᴡ ɢɪʀʟs✘
 
-༆ꪶ͢ᴀᴊᴍᴀʟꫂ⁩/ ꪶ͢ᴀᴄʜᴜꫂ⁩༄
+༆ꪶ͢ᴀᴄʜᴜꫂ⁩/ ꪶ͢ᴀᴄʜᴜꫂ⁩༄
 ʟᴏᴠᴇ ʏᴏᴜ ᴀʟʟ!`
 sendButLocation(from, `${menu}`, "ꪶᴢᴇᴜs ʙʏ ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜꫂ⁩⁩", {jpegThumbnail:gambar,name:""}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
-break 
+break
 case 'menu':
 case 'p':
 let pi=denz["prepareMessageFromContent"](from,{
