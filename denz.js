@@ -1061,9 +1061,9 @@ case 'zeus':
 ╾ _Command : ${prefix + command}_
 ❏「 \`\`\`INFO BOT\`\`\` 」
 ╾ _Nama Bot : ${NamaBot}_
-╾ _  : ${NamaOwner}_
-╾ _Nomor Owner : @${otod.split('@')[0]}_
-╾ _Auto Composing : ${autocomposing}_
+╾ _ Owner Name : ${NamaOwner}_
+╾ _Owner number : @${otod.split('@')[0]}_
+╾ _Auto Composinv : true_
 ╾ _Auto Recording : ${autorecording}_
 ❏「 \`\`\`INFO USER\`\`\` 」
 ╾ _Status : ${isOwner ? 'Owner' : 'User'}_
