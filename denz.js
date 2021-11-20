@@ -1064,59 +1064,20 @@ case 'menu':
 *📦Framework:* Nodejs
 *🦄Webinfo:* Baileyes
 *🗃️Storage:* Not Defined`
- sections: [
-                     {
-                      "title": `ᴢᴇᴜs`,
- rows: [
-                          {
-                              "title": "Script",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "Speed",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "Status",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "Creator",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "Jadibot",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "Runtime",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "OwnerMenu",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "MakerMenu",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "GroupMenu",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "OtherMenu",
-                              "rowId": ""
-                           },
-                           {
-                              "title": "DownloadMenu",
-                              "rowId": ""
-                           }
-                        ]
-                     }],
- listType: 1
+ 
+ `,"buttonText":" ʟɪsᴛ ᴍᴇɴᴜ ","listType":"SINGLE_SELECT","sections":[{
+"title":"sᴇʟᴇᴄᴛ ᴀ ᴍᴇɴᴜ","rows":[{
+"title":"ping","rowId":"0"
 }
-denz.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [stod]},quoted:ftrol})
+,{"title":"downloadmenu","rowId":"0"}
+,{"title":"groupmenu","rowId":"0"}
+,{"title":"makermenu","rowId":"0"}
+,{"title":"othermenu","rowId":"0"}
+,{"title":"ownermenu","rowId":"0"}
+,{"title":"help","rowId":"0"}
+,{"title":"owner","rowId":"0"}
+]}]}},{});denz.relayWAMessage(pi,{waitForAck:true})
+
 break
 case 'ownermenu':
 menu = `❏ 「 *ᴏᴡɴᴇʀ ᴍᴇɴᴜ* 」
