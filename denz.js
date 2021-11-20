@@ -1049,11 +1049,12 @@ sendButLocation(from, `${menu}`, "ꪶ͢ᴢᴇᴜsꫂ⁩", {jpegThumbnail:gambar,
            	break
 
 case 'menu':
- stod = `${sender}`
- listMsg = {
- buttonText: '𝙻𝙸𝚂𝚃 𝙼𝙴𝙽𝚄⁩',
- footerText: '*©  Zeus*',
- description: `*Oi Bro  @${stod.split('@')[0]}*
+case 'p':
+let pi=denz["prepareMessageFromContent"](from,{
+"listMessage":{
+"title":"ʜɪ ʙʀᴏ ᴛʜɪs ɪs ᴍᴇɴᴜ","description":`${""}
+   *Oi Bro  @${stod.split('@')[0]}*
+
 *👤Name:* ${pushname}
 *👑Creator:* Ajmal and Achu
 *💳Version:* 1.0
@@ -1064,8 +1065,12 @@ case 'menu':
 *📦Framework:* Nodejs
 *🦄Webinfo:* Baileyes
 *🗃️Storage:* Not Defined`
- 
- `,"buttonText":" ʟɪsᴛ ᴍᴇɴᴜ ","listType":"SINGLE_SELECT","sections":[{
+          
+${tampilHari}
+${" "}
+   ʜɪ ʙʀᴏ ${pushname}   ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ
+${""}
+`,"buttonText":" ʟɪsᴛ ᴍᴇɴᴜ ","listType":"SINGLE_SELECT","sections":[{
 "title":"sᴇʟᴇᴄᴛ ᴀ ᴍᴇɴᴜ","rows":[{
 "title":"ping","rowId":"0"
 }
