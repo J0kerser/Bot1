@@ -1065,9 +1065,7 @@ let pi=denz["prepareMessageFromContent"](from,{
 *📦Framework:* Nodejs
 *🦄Webinfo:* Baileyes
 *🗃️Storage:* Not Defined`
-    
-   ${pushname}  ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ
-${""}
+  
 `,"buttonText":" ʟɪsᴛ ᴍᴇɴᴜ ","listType":"SINGLE_SELECT","sections":[{
 "title":"sᴇʟᴇᴄᴛ ᴀ ᴍᴇɴᴜ","rows":[{
 "title":"ping","rowId":"0"
