@@ -1047,25 +1047,76 @@ sendButLocation(from, `${menu}`, "ꪶ͢ᴢᴇᴜsꫂ⁩", {jpegThumbnail:gambar,
 ], {contextInfo: { mentionedJid: [otod]}})
 }
            	break
+case 'help':
+case '?':
+denz.sendMessage(from, 'ᴡᴀɪᴛ ʙʀᴏ🙂', text, {quoted: ftok})
+stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
+data = fs.readFileSync('./lib/logo.js');
+jsonData = JSON.parse(data);
+randIndex = Math.floor(Math.random() * jsonData.length);
+randKey = jsonData[randIndex];
+gambar = await getBuffer(randKey.result)
+menu =`━━━━━━━━━━━━━━━━
 
+
+                 ${tampilHari}
+                 
+                 
+                 
+                 
+  ╔𒆜                                     
+  ║🖇️ᴄʜᴀʀɢᴇ : ${baterai.battery}                                                                    
+  ║🖇️sᴛᴀᴛᴜs : ${publik ? 'ᴘᴜʙʟɪᴄ ɴᴏᴡ ʙʀᴏ 😵' : 'sᴇʟғ ɴᴏᴡ ʙʀᴏ🤠'}        
+  ║🖇️ᴘʟᴀᴛғᴏʀᴍ : ${os.platform()}
+  ║🖇️ᴜᴘᴛɪᴍᴇ : ${kyun(os.uptime())}
+  ╚𒆜
+━━━━━━━━━━━━━━━━            
+┏━━━━━━━━━━━━━━━𒈒
+┃      ʜɪ ʙʀᴏ  ${pushname}!
+┃ *_ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴍᴇɴᴜ_*    
+┗━━━━━━━━━━━━━━━𒈒
+⎉⇵⇵⇵⇵⇵⇵⇵⇵⇵⇵⇵⇵⇵⇵⇵⇵⎉
+╔༆*ᴀʙᴏᴜᴛ༄༄༄༄༄༄
+║༄ ${prefix}ᴅᴇʟᴇᴛᴇ
+║༄ ${prefix}sᴛᴀᴛᴜs
+║༄ ${prefix}ʀᴜɴᴛɪᴍᴇ
+║༄ ${prefix}sᴘᴇᴇᴅ
+╚༄ ${prefix}sᴇᴅ ʟʏғᴇ
+ ╔༆
+ ║ ᴢᴇᴜs
+ ╚༄
+╔✘*ᴛʀʏ ᴀɴʏ ᴛʜɪɴɢ✘
+║༊ ${prefix}ᴏᴡɴᴇʀᴍᴇɴᴜ
+║༊ ${prefix}ᴍᴀᴋᴇʀᴍᴇɴᴜ
+║༊ ${prefix}ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
+║༊ ${prefix}ɢʀᴏᴜᴘᴍᴇɴᴜ
+║༊ ${prefix}ᴏᴡɴᴇʀ
+║༊ ${prefix}ʜᴇʟᴘ
+║༊ ${prefix}ᴏᴛʜᴇʀᴍᴇɴᴜ
+╚✘ʙʀᴏ ᴅᴏɴᴛ ғᴏʟʟᴏᴡ ɢɪʀʟs✘
+
+༆ꪶ͢ᴀᴄʜᴜꫂ⁩/ ꪶ͢ᴀᴄʜᴜꫂ⁩༄
+ʟᴏᴠᴇ ʏᴏᴜ ᴀʟʟ!`
+sendButLocation(from, `${menu}`, "ꪶᴢᴇᴜs ʙʏ ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜꫂ⁩⁩", {jpegThumbnail:gambar,name:""}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+break
 case 'menu':
 case 'p':
 let pi=denz["prepareMessageFromContent"](from,{
 "listMessage":{
-"title":"ʜɪ ʙʀᴏ ᴛʜɪs ɪs ᴍᴇɴᴜ","description":`${""}
-   *Oi Bro  @${stod.split('@')[0]}*
-
-*👤Name:* ${pushname}
-*👑Creator:* Ajmal and Achu
-*💳Version:* 1.0
-*💎Prefix:* [ ${prefix} ]
-*⌚Time:* ${jmn}
-*🖥️ Work type:* ${publik ? 'public' : 'self'}
-*📡Server:* ${os.platform}
-*📦Framework:* Nodejs
-*🦄Webinfo:* Baileyes
-*🗃️Storage:* Not Defined`
-  
+"title":"ʜɪ ᴛʜɪs ɪs ᴍᴇɴᴜ","description":`${""}
+     ʜɪ  ${pushname}     
+╔༆ᴄʀᴇᴀᴛᴏʀ⟼ī.ᴀᴍ/ꪶ͢ᴀᴊᴍᴀʟꫂ⁩
+║༄ᴠᴇʀsɪᴏɴ⟼3.0
+║༄ʙᴏᴛɴᴀᴍᴇ⟼ꪶ͢ᴢᴇᴜsꫂ⁩
+║༄ᴘʀᴇғɪx⟼(ᴍᴜʟᴛɪ ᴘʀᴇғɪx)
+║༄sᴛᴀᴛᴜs⟼ ${publik ? 'ᴘᴜʙʟɪᴄ ɴᴏᴡ' : 'sᴇʟғ ɴᴏᴡ'} 
+╚༄ᴏᴡɴᴇʀ⟼ wa.me/918590508376        
+${tampilHari}
+${" "}
+   ʜɪ ʙʀᴏ ${pushname}   ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ
+${""}
 `,"buttonText":" ʟɪsᴛ ᴍᴇɴᴜ ","listType":"SINGLE_SELECT","sections":[{
 "title":"sᴇʟᴇᴄᴛ ᴀ ᴍᴇɴᴜ","rows":[{
 "title":"ping","rowId":"0"
