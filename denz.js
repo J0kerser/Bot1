@@ -1313,7 +1313,7 @@ menu = `  ʜᴇʏ ᴜsᴇʀ @${sender.split("@")[0]}
 *╭◪ ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ*
 *╰─────────────────❋ཻུ۪۪⸙*`
 katalog(menu)
-sendButLocation(from, `${menu}`, "ꪶᴘᴀᴜʟᴡᴀʟᴋᴇʀ͢ꫂ⁩⁩", {jpegThumbnail:gambar,name:""}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+sendButLocation(from, `${menu}`, "ꪶᴢᴇᴜsꫂ⁩⁩", {jpegThumbnail:gambar,name:""}, [{buttonId:`about`,buttonText:{displayText:'ᴀʙᴏᴜᴛ'},type:1},{buttonId:`donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ'},type:1}], {contextInfo: { mentionedJid: [otod]}})
 		break
 //My Api
        case 'maker2d2': 
