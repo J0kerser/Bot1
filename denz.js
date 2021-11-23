@@ -1705,10 +1705,13 @@ await denz.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted:
 ╭───𒆜 𝑪𝑹𝑬𝑨𝑻𝑶𝑹𝑺
 │🥂 wa.me/${dtod.split('@')[0]}
 │🥂 wa.me/918590967139
+│🥂 wa.me/917356378949
 ╰───────────────𒈒
  ꪶ͢ᴀᴊᴍᴀʟꫂ⁩💝
  
  ꪶ͢ᴀᴄʜᴜꫂ💝
+
+ ꪶ͢ᴘᴀᴜʟ ᴡᴀʟᴋᴇʀꫂ💝 
  
  `
      credit = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 8888888, "message": `${yez}`, "footerText": "©ī.ᴀᴍ/ꪶ͢ᴢᴇᴜsꫂ⁩", "thumbnail": fs.readFileSync('./denz.jpg'), "surface": 'CATALOG'}}, {quoted: mek})
