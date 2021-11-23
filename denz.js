@@ -1117,8 +1117,7 @@ let pi=denz["prepareMessageFromContent"](from,{
 *📦Framework:* Nodejs
 *🦄Webinfo:* Baileyes
 *🗃️Storage:* Not Defined`
-
-ᴄʟɪᴄᴋ ᴀɴᴅ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴ 🔮
+ ᴄʟɪᴄᴋ ᴀɴᴅ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴ 🔮
 ${tampilHari}
 ${" "}
    ʜɪ ʙʀᴏ ${pushname}   ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ😂😂
