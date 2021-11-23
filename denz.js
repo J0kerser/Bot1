@@ -1106,16 +1106,22 @@ case 'p':
 let pi=denz["prepareMessageFromContent"](from,{
 "listMessage":{
 "title":"ʜɪ ᴛʜɪs ɪs ᴍᴇɴᴜ","description":`${""}
-     ʜɪ  ${pushname}     
-╔༆ᴄʀᴇᴀᴛᴏʀ⟼ī.ᴀᴍ/ꪶ͢ᴀᴊᴍᴀʟꫂ⁩
-║༄ᴠᴇʀsɪᴏɴ⟼3.0
-║༄ʙᴏᴛɴᴀᴍᴇ⟼ꪶ͢ᴢᴇᴜsꫂ⁩
-║༄ᴘʀᴇғɪx⟼(ᴍᴜʟᴛɪ ᴘʀᴇғɪx)
-║༄sᴛᴀᴛᴜs⟼ ${publik ? 'ᴘᴜʙʟɪᴄ ɴᴏᴡ' : 'sᴇʟғ ɴᴏᴡ'} 
-╚༄ᴏᴡɴᴇʀ⟼ wa.me/919744196187      
+*Oi Bro  @${stod.split('@')[0]}*
+*👤Name:* ${pushname}
+*👑Creator:* Ajmal and Achu
+*💳Version:* 1.0
+*💎Prefix:* [ ${prefix} ]
+*⌚Time:* ${jmn}
+*🖥️ Work type:* ${publik ? 'public' : 'self'}
+*📡Server:* ${os.platform}
+*📦Framework:* Nodejs
+*🦄Webinfo:* Baileyes
+*🗃️Storage:* Not Defined`
+
+Click And Select Your option 🔮
 ${tampilHari}
 ${" "}
-   ʜɪ ʙʀᴏ ${pushname}   ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ
+   ʜɪ ʙʀᴏ ${pushname}   ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ😂😂
 ${""}
 `,"buttonText":" ʟɪsᴛ ᴍᴇɴᴜ ","listType":"SINGLE_SELECT","sections":[{
 "title":"sᴇʟᴇᴄᴛ ᴀ ᴍᴇɴᴜ","rows":[{
