@@ -1118,7 +1118,7 @@ let pi=denz["prepareMessageFromContent"](from,{
 *🦄Webinfo:* Baileyes
 *🗃️Storage:* Not Defined`
 
-Click And Select Your option 🔮
+ᴄʟɪᴄᴋ ᴀɴᴅ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴏᴘᴛɪᴏɴ 🔮
 ${tampilHari}
 ${" "}
    ʜɪ ʙʀᴏ ${pushname}   ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ😂😂
