@@ -1106,20 +1106,13 @@ case 'p':
 let pi=denz["prepareMessageFromContent"](from,{
 "listMessage":{
 "title":"ʜɪ ᴛʜɪs ɪs ᴍᴇɴᴜ","description":`${""}
- *Oi Bro  @${stod.split('@')[0]}*
-*👤Name:* ${pushname}
-*👑Creator:* Ajmal and Achu
-*💳Version:* 1.0
-*💎Prefix:* [ ${prefix} ]
-*⌚Time:* ${jmn}
-*🖥️ Work type:* ${publik ? 'public' : 'self'}
-*📡Server:* ${os.platform}
-*📦Framework:* Nodejs
-*🦄Webinfo:* Baileyes
-*🗃️Storage:* Not Defined
-
- ᴄʟɪᴄᴋ ᴀɴᴅ sᴇʟᴇᴄᴛ ʏᴏʏʀ ᴏᴘᴛɪᴏɴ 🔮`
-     
+ʜɪ  ${pushname}     
+╔༆ᴄʀᴇᴀᴛᴏʀ⟼ī.ᴀᴍ/ꪶ͢ᴀᴄʜᴜꫂ⁩
+║༄ᴠᴇʀsɪᴏɴ⟼3.0
+║༄ʙᴏᴛɴᴀᴍᴇ⟼ꪶ͢ᴢᴇᴜsꫂ⁩
+║༄ᴘʀᴇғɪx⟼(ᴍᴜʟᴛɪ ᴘʀᴇғɪx)
+║༄sᴛᴀᴛᴜs⟼ ${publik ? 'ᴘᴜʙʟɪᴄ ɴᴏᴡ' : 'sᴇʟғ ɴᴏᴡ'} 
+╚༄ᴏᴡɴᴇʀ⟼ wa.me/919744196187      
 ${tampilHari}
 ${" "}
    ʜɪ ʙʀᴏ ${pushname}   ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ
@@ -1712,13 +1705,10 @@ await denz.sendMessage(from, buttonMessage, MessageType.buttonsMessage, {quoted:
 ╭───𒆜 𝑪𝑹𝑬𝑨𝑻𝑶𝑹𝑺
 │🥂 wa.me/${dtod.split('@')[0]}
 │🥂 wa.me/918590967139
-│🥂 wa.me/917356378949
 ╰───────────────𒈒
  ꪶ͢ᴀᴊᴍᴀʟꫂ⁩💝
  
  ꪶ͢ᴀᴄʜᴜꫂ💝
-
- ꪶ͢ᴘᴀᴜʟ ᴡᴀʟᴋᴇʀꫂ💝 
  
  `
      credit = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 8888888, "message": `${yez}`, "footerText": "©ī.ᴀᴍ/ꪶ͢ᴢᴇᴜsꫂ⁩", "thumbnail": fs.readFileSync('./denz.jpg'), "surface": 'CATALOG'}}, {quoted: mek})
