@@ -1621,13 +1621,15 @@ menu = `
 ︎
 -----[ 𝐆 𝐈 𝐓 ]-----
 
-https://github.com/Nokki-Irunno/Ippo-Kittum😂😂
+https://github.com/Nokki-Irunno/Ippo-Kittum
+
+ᴄʜᴏᴅʜɪᴄʜᴜ ᴘᴏʏᴀᴠᴀɴ😂😂
 `
 sendButMessage(from, menu, `Zeus`, [
           {
             buttonId: `menu`,
             buttonText: {
-              displayText: `𝐏𝐎𝐓 𝐒𝐀𝐑𝐀𝐌 𝐈𝐋𝐋𝐀 𝐍𝐉𝐀𝐍𝐆𝐀𝐋𝐄 𝐊𝐀𝐍𝐃𝐎𝐋𝐋𝐔😂😂`,
+              displayText: `𝐍𝐈𝐂𝐄😒😂`,
             },
             type: 1,
           },]);
