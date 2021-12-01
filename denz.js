@@ -1616,6 +1616,24 @@ sendButMessage(from, menu, `Zeus`, [
         
 
 break
+case 'git':
+menu = `
+︎
+-----[ 𝐆 𝐈 𝐓 ]-----
+
+https://github.com/Nokki-Irunno/Ippo-Kittum😂😂
+`
+sendButMessage(from, menu, `Zeus`, [
+          {
+            buttonId: `menu`,
+            buttonText: {
+              displayText: `𝐏𝐎𝐓 𝐒𝐀𝐑𝐀𝐌 𝐈𝐋𝐋𝐀 𝐍𝐉𝐀𝐍𝐆𝐀𝐋𝐄 𝐊𝐀𝐍𝐃𝐎𝐋𝐋𝐔😂😂`,
+            },
+            type: 1,
+          },]);
+        
+
+break
 case 'setthumb':
 			if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
 			if (!arg) return reply
